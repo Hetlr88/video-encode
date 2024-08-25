@@ -2,11 +2,11 @@ from pyrogram import Client, filters
 
 from decouple import config
 
-api = 19663899
-hash = "af0b19d19293e57b1b74cabcf6dcbbd6"
-bot = "5029205621:AAGWw2fkjLpLOT1m2nXVNB-rPoEgJe0Q8T0"
-owner = str("675889933 406793949 506779415").split()
-group = "-1001644715256"
+api = 29452145
+hash = "5a2784e571fe5043852d32396a34a13b"
+bot = "7445547849:AAHfX4_8TQ57cg71Q_l9ABoa6RfgfPWHgsE"
+owner = str("6169288210").split()
+group = "-1002243837012"
 block = "1 2 3"
 try:
     api = config("api", cast=int)
